@@ -197,29 +197,29 @@ clear && sleep 1
 
 
 # Asking if the user wants to download more wallpapers
-printf "${attention} - Would you like to add more ${green}Wallpapers${end}? ${blue}[ y/n ]${end}\n"
-read -r -p "$(echo -e '\e[1;32mSelect: \e[0m')" wallpaper
+#printf "${attention} - Would you like to add more ${green}Wallpapers${end}? ${blue}[ y/n ]${end}\n"
+#read -r -p "$(echo -e '\e[1;32mSelect: \e[0m')" wallpaper
 
 printf " \n"
 
 # wallpaper...
-if [[ "$wallpaper" =~ ^[Y|y]$ ]]; then
-    printf "${action} - Downloading some wallpapers...\n" && sleep 1
-
+#if [[ "$wallpaper" =~ ^[Y|y]$ ]]; then
+ #   printf "${action} - Downloading some wallpapers...\n" && sleep 1
+#
     # cloning the wallpapers in a temporary directory
-    git clone --depth=1 https://github.com/draihanx/Wallpapers.git ~/.wallpaper-cache 2>&1 | tee -a "$log"
+ #   git clone --depth=1 https://github.com/draihanx/Wallpapers.git ~/.wallpaper-cache 2>&1 | tee -a "$log"
 
     # copying the wallpaper to the main directory
-    if [[ -d "$HOME/.wallpaper-cache" ]]; then
-        cp "$HOME/.wallpaper-cache/dark"/* ~/.config/hypr/Dynamic-Wallpapers/dark/
-        cp "$HOME/.wallpaper-cache/light"/* ~/.config/hypr/Dynamic-Wallpapers/light/
-        cp "$HOME/.wallpaper-cache/all"/* ~/.config/hypr/Wallpaper/
-        sudo rm -rf "$HOME/.wallpaper-cache"
-        printf "${done} - Wallpapers were downloaded successfully..\n" 2>&1 | tee -a >(sed 's/\x1B\[[0-9;]*[JKmsu]//g' >> "$log") & sleep 0.5
-    else
-        printf "${error} - Sorry, could not download wallpapers\n" 2>&1 | tee -a >(sed 's/\x1B\[[0-9;]*[JKmsu]//g' >> "$log") && sleep 0.5
-    fi
-fi
+  #  if [[ -d "$HOME/.wallpaper-cache" ]]; then
+   #     cp "$HOME/.wallpaper-cache/dark"/* ~/.config/hypr/Dynamic-Wallpapers/dark/
+    #    cp "$HOME/.wallpaper-cache/light"/* ~/.config/hypr/Dynamic-Wallpapers/light/
+     #   cp "$HOME/.wallpaper-cache/all"/* ~/.config/hypr/Wallpaper/
+      #  sudo rm -rf "$HOME/.wallpaper-cache"
+       # printf "${done} - Wallpapers were downloaded successfully..\n" 2>&1 | tee -a >(sed 's/\x1B\[[0-9;]*[JKmsu]//g' >> "$log") & sleep 0.5
+   # else
+    #    printf "${error} - Sorry, could not download wallpapers\n" 2>&1 | tee -a >(sed 's/\x1B\[[0-9;]*[JKmsu]//g' >> "$log") && sleep 0.5
+    #fi
+#fi
 
 # setting default themes, icon and cursor
 gsettings set org.gnome.desktop.interface gtk-theme "theme"
