@@ -205,7 +205,7 @@ if [[ "$wallpaper" =~ ^[Y|y]$ ]]; then
     printf "${action} - Downloading some wallpapers...\n" && sleep 1
 
     # cloning the wallpapers in a temporary directory
-    git clone https://github.com/draihanx/Walls.git ~/.wallpaper-cache 2>&1 | tee -a "$log"
+    git clone https://github.com/me-js-bro/Wallpapers ~/.wallpaper-cache 2>&1 | tee -a "$log"
 
     # copying the wallpaper to the main directory
     if [[ -d "$HOME/.wallpaper-cache" ]]; then
