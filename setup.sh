@@ -226,6 +226,13 @@ gsettings set org.gnome.desktop.interface cursor-theme "Nordzy-cursors"
 
 
 
+
+# setting up the waybar
+ln -sf "$HOME/.config/waybar/configs/fancy-top" "$HOME/.config/waybar/config"
+ln -sf "$HOME/.config/waybar/style/fancy-top.css" "$HOME/.config/waybar/style.css"
+
+
+
 # =========  wallpaper section  ========= #
 
 check_distro &> /dev/null
@@ -248,8 +255,6 @@ if [[ -d "$HOME/.config/hypr/Wallpaper" ]]; then
   "$HOME/.config/hypr/scripts/pywal.sh"
 fi
 
-# setting up the waybar
-ln -sf "$HOME/.config/waybar/configs/fancy-top" "$HOME/.config/waybar/config"
-ln -sf "$HOME/.config/waybar/style/fancy-top.css" "$HOME/.config/waybar/style.css"
+
 
 printf "${done} - Script execution was successful! Now you can reboot and enjoy your customization \n"
