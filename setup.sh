@@ -206,7 +206,7 @@ if [[ "$wallpaper" =~ ^[Y|y]$ ]]; then
     printf "${action} - Downloading some wallpapers...\n" && sleep 1
 
     # cloning the wallpapers in a temporary directory
-    git clone --depth=1 https://github.com/draihanx/Wallpapers.git ~/.wallpaper-cache 2>&1 | tee -a "$log"
+    git clone --depth=1 https://github.com/me-js-bro/Wallpapers.git ~/.wallpaper-cache 2>&1 | tee -a "$log"
 
     # copying the wallpaper to the main directory
     if [[ -d "$HOME/.wallpaper-cache" ]]; then
@@ -245,7 +245,7 @@ if [[ -d "$HOME/.config/hypr/Wallpaper" ]]; then
 
 # setting the default wallpaper
   ln -sf "$wallpaper" "$HOME/.config/hypr/.cache/current_wallpaper.png"
-   echo "wallpaper = ,/home/me-js-bro/.config/hypr/.cache/current_wallpaper.png" > "$HOME/.config/hypr/hyprpaper"
+   echo "wallpaper = ,/home/raihan/.config/hypr/.cache/current_wallpaper.png" > "$HOME/.config/hypr/hyprpaper"
   "$HOME/.config/hypr/scripts/pywal.sh"
 fi
 
