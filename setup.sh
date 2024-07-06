@@ -221,6 +221,12 @@ if [[ "$wallpaper" =~ ^[Y|y]$ ]]; then
 fi
 
 
+#Setting directories
+mkdir -p $HOME/Pictures/Screenshots
+mkdir -p $HOME/Videos
+mkdir -p $HOME/Documents
+mkdir -p $HOME/Music
+
 
 # setting default themes, icon and cursor
 gsettings set org.gnome.desktop.interface gtk-theme "theme"
