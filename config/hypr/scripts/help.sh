@@ -45,9 +45,9 @@ yad --width=$dynamic_width --height=$dynamic_height \
 " + /" "App Launcher" "(Rofi)" \
 " + ALT + /" "App Launcher Theme" "(Rofi)" \
 " + SHIFT + /" "Emoji Selector" "(Rofi)" \
-" + x" "Power Menu" "(Rofi)" \
-" + ALT + x" "Power Menu Theme" "(Rofi)" \
-" + ALT + b" "Shell (zsh/bash) Theme" "(Rofi)" \
+" + X" "Power Menu" "(Rofi)" \
+" + ALT + X" "Power Menu Theme" "(Rofi)" \
+" + ALT + B" "Shell (zsh/bash) Theme" "(Rofi)" \
 " + CTRL + E" "Choose to edit dotfiles" "(Rofi)" \
 " + SHIFT + W" "Select wallpaper" "(Rofi)" \
 " + ALT + SHIFT + W" "Select wallpaper (style-2)" "(Rofi)" \
@@ -62,20 +62,35 @@ yad --width=$dynamic_width --height=$dynamic_height \
 " + B" "Browser" "(Brave/Chromium)" \
 " + SHIFT + B" "Browser" "(Firefox 󰈹 )" \
 " + C" "Code Editor" "(Visual Studio Code 󰨞 )" \
-" " "Print" "Screenshot" "(Grimblast)" \
-" + Print" "Screenshot region" "(Grimblast)" \
+"Print" "Screenshot" "(Grimblast)" \
 " + SHIFT + L" "Screen lock" "(hyprlock)" \
 " + F" "Fullscreen" "(Toggles full-screen)" \
+" + SHIFT + P" "Pseudo" "(Dwindle)"
 " + V" "Floating" "(Toggle floating window)" \
-" + H" " " "Launch this app" \
+#" + H" " " "Launch this app" \
 "CTRL + Space" "Toggle Keyboard" "fcitx5 (Bangla & English)" \
 "" "" "" \
-"F9" "Volume" "(Volume Mute  )" \
-"F10" "Volume" "(Volume Decrease  )" \
-"F11" "Volume" "(Volume Increase  )" \
+"ALT + F9" "Volume" "(Volume Mute  )" \
+"ALT + F10" "Volume" "(Volume Decrease  )" \
+"ALT + F11" "Volume" "(Volume Increase  )" \
 "" "" "" \
-"F2" "Brightness" "(Brightness Increase  )" \
-"F3" "Brightness" "(Brightness Decrease  )" \
+"ALT + F2" "Brightness" "(Brightness Increase  )" \
+"ALT + F3" "Brightness" "(Brightness Decrease  )" \
 "" "" "" \
+" + L/H/K/J" "Move focus" "(Focus to Rt/Lt/Up/Dn)"\
+" + CTRL + L/H/K/J" "Move window" "(Move to Rt/Lt/Up/Dn)"\
+" + ." "Scroll Workspace" "Scroll to Right"\
+" + CTRL + ." "Scroll Workspace" "Scroll to Right"\
+" + ," "Scroll Workspace" "Scroll to Left"\
+" + CTRL + ," "Scroll Workspace" "Scroll to Left"\
+" + ALT + ." "Move to Workspace" "Move to Right"\
+" + ALT + ," "Move to Workspace" "Move to Left"\
+" + SHIFT + (Num)" "Move to Workspace" "Move to (Num)"\
+" + ALT + (Num)" "Move to Workspace silently" "Move to (Num)"\
+"" "" ""\
 "CTRL + ESC" " " "Hide/Launch Waybar" \
 "CTRL+ ALT + ESC" " " "Reload Waybar" \
+"" "" ""\
+"" "" ""\
+"" "" ""\
+" + SHIFT + M" "Exit" "(Exit HYPRLAND"\
