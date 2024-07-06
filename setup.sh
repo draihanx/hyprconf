@@ -236,6 +236,7 @@ check_distro &> /dev/null
 if [[ -d "$HOME/.config/hypr/Wallpaper" ]]; then
   mode_file="$HOME/.mode"
   engine="$HOME/.config/hypr/.cache/.engine"
+  mkdir -p "$HOME/.config/hypr/.cache/"
 
   touch "$mode_file" &> /dev/null
   touch "$engine" &> /dev/null && echo "Engine file created!" && sleep 3
