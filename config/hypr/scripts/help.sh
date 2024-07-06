@@ -65,9 +65,8 @@ yad --width=$dynamic_width --height=$dynamic_height \
 "Print" "Screenshot" "(Grimblast)" \
 " + SHIFT + L" "Screen lock" "(hyprlock)" \
 " + F" "Fullscreen" "(Toggles full-screen)" \
-" + SHIFT + P" "Pseudo" "(Dwindle)"
+" + SHIFT + P" "Pseudo" "(Dwindle)" \
 " + V" "Floating" "(Toggle floating window)" \
-#" + H" " " "Launch this app" \
 "CTRL + Space" "Toggle Keyboard" "fcitx5 (Bangla & English)" \
 "" "" "" \
 "ALT + F9" "Volume" "(Volume Mute  )" \
@@ -77,20 +76,19 @@ yad --width=$dynamic_width --height=$dynamic_height \
 "ALT + F2" "Brightness" "(Brightness Increase  )" \
 "ALT + F3" "Brightness" "(Brightness Decrease  )" \
 "" "" "" \
-" + L/H/K/J" "Move focus" "(Focus to Rt/Lt/Up/Dn)"\
-" + CTRL + L/H/K/J" "Move window" "(Move to Rt/Lt/Up/Dn)"\
-" + ." "Scroll Workspace" "Scroll to Right"\
-" + CTRL + ." "Scroll Workspace" "Scroll to Right"\
-" + ," "Scroll Workspace" "Scroll to Left"\
-" + CTRL + ," "Scroll Workspace" "Scroll to Left"\
-" + ALT + ." "Move to Workspace" "Move to Right"\
-" + ALT + ," "Move to Workspace" "Move to Left"\
-" + SHIFT + (Num)" "Move to Workspace" "Move to (Num)"\
-" + ALT + (Num)" "Move to Workspace silently" "Move to (Num)"\
-"" "" ""\
+" + L/H/K/J" "Move focus" "(Focus to Rt/Lt/Up/Dn)" \
+" + CTRL + L/H/K/J" "Move window" "(Move to Rt/Lt/Up/Dn)" \
+" + ." "Scroll Workspace" "Scroll to Right" \
+" + CTRL + ." "Scroll Workspace" "Scroll to Right" \
+" + ," "Scroll Workspace" "Scroll to Left" \
+" + CTRL + ," "Scroll Workspace" "Scroll to Left" \
+" + ALT + ." "Move to Workspace" "Move to Right" \
+" + ALT + ," "Move to Workspace" "Move to Left" \
+" + SHIFT + (Num)" "Move to Workspace" "Move to (Num)" \
+" + ALT + (Num)" "Move to Workspace silently" "Move to (Num)" \
+"" "" "" \
 "CTRL + ESC" " " "Hide/Launch Waybar" \
 "CTRL+ ALT + ESC" " " "Reload Waybar" \
-"" "" ""\
-"" "" ""\
-"" "" ""\
-" + SHIFT + M" "Exit" "(Exit HYPRLAND"\
+"" "" "" \
+" + SHIFT + M" "Exit" "(Exit HYPRLAND)" \
+
