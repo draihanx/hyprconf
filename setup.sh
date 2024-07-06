@@ -235,13 +235,13 @@ check_distro &> /dev/null
 
 if [[ -d "$HOME/.config/hypr/Wallpaper" ]]; then
   mode_file="$HOME/.mode"
-  engine="$HOME/.config/hypr/.cache/.engine"
+  #engine="$HOME/.config/hypr/.cache/.engine"
 
   touch "$mode_file" &> /dev/null
-  touch "$engine" &> /dev/null
+  #touch "$engine" &> /dev/null
   
   echo "dark" > "$mode_file"
-  echo "hyprpaper" > "$engine"
+  #echo "hyprpaper" > "$engine"
 
   wallpaper="$HOME/.config/hypr/Wallpaper/$distro.png"
 
