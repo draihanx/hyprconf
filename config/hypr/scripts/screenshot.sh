@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grim $HOME/Pictures/Screenshot/"$(date +%s_%N)".jpg
+grim $HOME/Pictures/Screenshots/"$(date +%s_%N)".jpg
