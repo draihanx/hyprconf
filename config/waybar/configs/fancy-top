@@ -13,7 +13,7 @@
 
     "modules-center": ["hyprland/workspaces"],
 
-    "modules-right": ["tray", "battery", "backlight", "custom/clipboard", "network", "clock", "custom/power_btn"],
+    "modules-right": ["tray", "battery", "backlight", "custom/clipboard", "network", "clock"],
 
     "hyprland/workspaces": {
         "disable-scroll": true,
