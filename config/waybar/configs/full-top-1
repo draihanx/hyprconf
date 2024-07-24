@@ -11,7 +11,7 @@
     "margin-left": 5,
     "margin-right": 5,
 
-    "modules-left": ["custom/launch_rofi", "tray", "hyprland/workspaces", "custom/weather", "mpris"],
+    "modules-left": ["custom/launch_rofi", "tray", "hyprland/workspaces", "mpris"],
 
     "modules-center": ["custom/updater", "clock", "custom/swaync"],
 
