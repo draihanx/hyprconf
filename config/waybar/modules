@@ -73,7 +73,7 @@
     },
 
     "cpu": {
-        "interval": 10,
+        "interval": 5,
         // "format": "󰍛 {usage}%",
         "format": "{icon0}{icon1}{icon2}{icon3} {usage}%",
         "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
@@ -88,7 +88,7 @@
     },
 
     "memory": {
-        "interval": 30,
+        "interval": 5,
         "format": "󰾅 {used}GB",
         // "format-alt": "󰾅 {used}GB",
         "max-length": 10,
@@ -127,7 +127,7 @@
     },
 
     "clock": {
-        "format": " {:%I:%M %p}",
+        "format": " {:%I:%M:%S %p}",
         "format-alt": " {:%d-%m-%Y}",
         "on-clock-right": "exec gnome-calendar",
         "tooltip": true,
