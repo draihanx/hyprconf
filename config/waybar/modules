@@ -127,6 +127,7 @@
     },
 
     "clock": {
+	"interval": 1,
         "format": " {:%I:%M:%S %p}",
         "format-alt": " {:%d-%m-%Y}",
         "on-clock-right": "exec gnome-calendar",
