@@ -10,7 +10,7 @@
         "margin-top": 0,
         "margin-bottom": 0,
     
-        "modules-left": ["custom/launch_rofi","hyprland/workspaces", "custom/ai", "custom/github"],
+        "modules-left": ["custom/launch_rofi","hyprland/workspaces"],
     
         "modules-center": [],
     
