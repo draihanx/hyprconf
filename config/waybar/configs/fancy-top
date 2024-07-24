@@ -9,7 +9,7 @@
     "height": 10,
     "margin-top": -3,
 
-    "modules-left": ["custom/launch_rofi", "cpu", "memory", "mpris", "custom/updater", "custom/swaync", "pulseaudio",],
+    "modules-left": ["custom/launch_rofi", "cpu", "memory", "mpris", "custom/updater", "custom/swaync", "pulseaudio"],
 
     "modules-center": ["hyprland/workspaces"],
 
