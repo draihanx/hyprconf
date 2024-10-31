@@ -39,7 +39,7 @@
     },
 
     "custom/launch_rofi": {
-        "format": "Apps",
+        "format": "",
         "on-click": "~/.config/hypr/scripts/menu_select.sh",
         "on-click-right": "rofi -n -show filebrowser",
         "tooltip": false
